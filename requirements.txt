@@ -1,0 +1,13 @@
+dash
+plotly
+gunicorn
+pandas
+scikit-learn
+dash-core-components
+dash-html-components
+dash-renderer
+dash-table
+dash-daq
+requests
+dash_bootstrap_components
+dash-dangerously-set-inner-html
