@@ -9,3 +9,9 @@ install_if_missing = function(p) {
   }
 }
 invisible(sapply(my_packages, install_if_missing))
+
+RUN R -e "install.packages('plumber')"
+RUN R -e "install.packages('jsonlite')"
+RUN R -e "install.packages('devtools')"
+RUN R -e "devtools::install_github('abresler/markovifyR')"
+RUN R -e "markovifyR::install_markovify()"
