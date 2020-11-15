@@ -10,5 +10,5 @@ install_if_missing = function(p) {
 }
 invisible(sapply(my_packages, install_if_missing))
 
-devtools::install_github('abresler/markovifyR')
+devtools::install_github('abresler/markovifyR', force = TRUE)
 markovifyR::install_markovify()
